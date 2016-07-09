@@ -1,0 +1,25 @@
+<section id="resume" ng-controller="ResumeController" class="resume-section section-padding">
+	<div class="container">
+		<h2 class="section-title wow fadeInUp">Resu<span class="color">me</span></h2>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="resume-title">
+					<h3>My life in mere facts:</h3>
+				</div>
+				<div class="resume">
+					<ul class="timeline">
+						<div timeline-event
+							ng-repeat="timelineEntry in timelineEntries"
+							align="{{$odd ? 'right' : 'left'}}"
+							date="{{timelineEntry.date}}"
+							title="{{timelineEntry.title}}"
+							subtitle="{{timelineEntry.subtitle}}"
+							description="{{timelineEntry.description}}"
+							expandable="{{timelineEntry.expandable}}"></div>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
