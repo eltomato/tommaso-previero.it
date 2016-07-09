@@ -70,38 +70,38 @@ jQuery(function($) {
     // Contact Form
     // -------------------------------------------------------------
 
-    $('#contactForm').on('submit', function(e) {
+    // $('#contactForm').on('submit', function(e) {
 
-        e.preventDefault();
+    //     e.preventDefault();
 
-        var $action = $(this).prop('action');
-        var $data = $(this).serialize();
-        var $this = $(this);
+    //     var $action = $(this).prop('action');
+    //     var $data = $(this).serialize();
+    //     var $this = $(this);
 
-        $this.prevAll('.alert').remove();
+    //     $this.prevAll('.alert').remove();
 
-        $.post($action, $data, function(data) {
+    //     $.post($action, $data, function(data) {
 
-            if (data.response == 'error') {
+    //         if (data.response == 'error') {
 
-                $this.before('<div class="alert alert-danger">' + data.message + '</div>');
-            }
+    //             $this.before('<div class="alert alert-danger">' + data.message + '</div>');
+    //         }
 
-            if (data.response == 'success') {
+    //         if (data.response == 'success') {
 
-                $this.before('<div class="alert alert-success">' + data.message + '</div>');
-                $this.find('input, textarea').val('');
-            }
+    //             $this.before('<div class="alert alert-success">' + data.message + '</div>');
+    //             $this.find('input, textarea').val('');
+    //         }
 
-        }, "json");
+    //     }, "json");
 
-    });
+    // });
 
     // -------------------------------------------------------------
     // Google Map
     // -------------------------------------------------------------
 
-    (function() {
+    // (function() {
         // var myLatlng = new google.maps.LatLng(41.372641, -74.687387);
 
         // var styles = [{
@@ -163,7 +163,7 @@ jQuery(function($) {
         //     infowindow.open(map, marker);
         // });
 
-    }());
+    // }());
 
 
 });
