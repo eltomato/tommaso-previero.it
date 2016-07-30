@@ -16,5 +16,7 @@ var tommasoPreviero = angular.module('tommaso-previero', [
     'ui.bootstrap.carousel',
     'angularTypewrite',
     'ng.deviceDetector',
-    'ngMap'
+    'ngMap',
+    'angulartics',
+    'angulartics.google.analytics'
 ]);

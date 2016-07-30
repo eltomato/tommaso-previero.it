@@ -6,12 +6,14 @@ angular.module('tommaso-previero.controllers')
     $scope.contactSent = false;
     
     $scope.sendContactInfos = function(form) {
-    	getInTouchService.doGetInTouch($scope.infos).success(function() {
-            form.$setPristine();
-            form.$setUntouched();
-            $scope.infos = {};
-            $scope.contactSent = true;
-        });
+        if($scope.infos.name && $scope.infos.email && $scope.infos.subject && $scope.infos.message) {
+        	getInTouchService.doGetInTouch($scope.infos).success(function() {
+                form.$setPristine();
+                form.$setUntouched();
+                $scope.infos = {};
+                $scope.contactSent = true;
+            });
+        }
     };
     
     $scope.writeAgain = function() {
