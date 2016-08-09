@@ -55,8 +55,8 @@ angular.module('tommaso-previero.controllers')
 		title: 'Software Developer at <a href="http://www.e-time.it/en/" target="_blank">e-time<i class="fa fa-external-link external-link"></i></a>',
 		subtitle: 'Term contract. Worked for: <a href="http://www.intesasanpaolo.com/" target="_blank">Intesa Sanpaolo<i class="fa fa-external-link external-link"></i></a><br>Verona, Italy',
 		description: 'Contributions mainly to a product for our main customer in term of planning, realization, testing and maintenance.<br>'+
-		'The product was an utility to be used to smooth the communications between end user and the bank, as well as between banks, it\'s name bacame <a href="http://www.e-time.it/en/en-eformat" target="_blank">eFormat<i class="fa fa-external-link external-link"></i></a><br>'+
-		'Main languages used were Java, SQL, Javascript.',
+			'The product was an utility to be used to smooth the communications between end user and the bank, as well as between banks, it\'s name bacame <a href="http://www.e-time.it/en/en-eformat" target="_blank">eFormat<i class="fa fa-external-link external-link"></i></a><br>'+
+			'Main languages used were Java, SQL, Javascript.',
 		expandable: true
 	}, {
 		date: '2008 - 2009',
