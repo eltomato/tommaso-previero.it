@@ -42,7 +42,7 @@ angular.module('tommaso-previero.controllers')
 		subtitle: 'Verona University, Italy',
 		description: 'The goal of the Bachelor Degree in Computer Science is to provide knowledge and skills in various fields of Computer Science and Information Technology. The main focus is on information systems, databases, complex software architectures, information and data modelization, network services and systems security.'
 	}, {
-		date: '2009-2012',
+		date: '2011-2012',
 		title: 'Software Developer at <a href="http://www.e-time.it/en/" target="_blank">e-time<i class="fa fa-external-link external-link"></i></a>',
 		subtitle: 'Permanent working contract. Worked for: <a href="http://www.intesasanpaolo.com/" target="_blank">Intesa Sanpaolo<i class="fa fa-external-link external-link"></i></a>, <a href="http://www.gruppobancopopolare.it/en/" target="_blank">SGS Banco Popolare<i class="fa fa-external-link external-link"></i></a>, <a href="http://www.arcassicura.it/opencms/index.jsp" target="_blank">Arca Assicurazioni<i class="fa fa-external-link external-link"></i></a>, <a href="https://www.docebo.com/" target="_blank">Docebo<i class="fa fa-external-link external-link"></i></a>.<br>Verona, Italy',
 		description: 'Duties covered all the software lifecycle.<br>'+
@@ -51,20 +51,27 @@ angular.module('tommaso-previero.controllers')
 			'Having the possibility to work in such large environments led me to a deeper consciousness about all the software lifecycle and about myself and my capabilities.',
 			expandable: true
 	}, {
-		date: '2007-2008',
-		title: 'High School Diploma at <a href"https://www.marconiverona.gov.it/portal/" target="_blank">ITIS G. Marconi<i class="fa fa-external-link external-link"></i></a>',
-		subtitle: 'Head Technician in Computer Technology.',
-		description: 'The goal of the Head Technician in Computer Technology High School is to provide strong bases useful to design, implement and maintain software information systems as well as network infrastructures.<br>'+
-		'Along with technology skills also a strong emphasis is given to all science literature and mindset.',
+		date: '2010-2011',
+		title: 'Software Developer at <a href="http://www.e-time.it/en/" target="_blank">e-time<i class="fa fa-external-link external-link"></i></a>',
+		subtitle: 'Term contract. Worked for: <a href="http://www.intesasanpaolo.com/" target="_blank">Intesa Sanpaolo<i class="fa fa-external-link external-link"></i></a><br>Verona, Italy',
+		description: 'Contributions mainly to a product for our main customer in term of planning, realization, testing and maintenance.<br>'+
+		'Main languages used were Java, SQL, Javascript.',
 		expandable: true
 	}, {
-		date: 'Nov 2007 - Sep 2008',
+		date: '2008 - 2009',
 		title: 'Software Developer at <a href="http://www.e-time.it/en/" target="_blank">e-time<i class="fa fa-external-link external-link"></i></a>',
 		subtitle: 'Term contract.<br>Verona, Italy',
 		description: 'Experience achieved during the last year of high school.<br>'+
 			'Contribution to the development of a management system for a company that offers wireless connectivity in the north Italy in areas not yet completly covered by internet connection.<br>'+
 			'The languages used in the project were PHP, Javasctipt, SQL and everything related. Also used some useful PHP and Javascript framework like Zend and Dojo.<br>'+
 			'The system was able to take care of various type of notification to and from the users, commercial aspects and other things like management of the users or the system itself.',
+		expandable: true
+	}, {
+		date: '2007-2008',
+		title: 'High School Diploma at <a href"https://www.marconiverona.gov.it/portal/" target="_blank">ITIS G. Marconi<i class="fa fa-external-link external-link"></i></a>',
+		subtitle: 'Head Technician in Computer Technology.',
+		description: 'The goal of the Head Technician in Computer Technology High School is to provide strong bases useful to design, implement and maintain software information systems as well as network infrastructures.<br>'+
+		'Along with technology skills also a strong emphasis is given to all science literature and mindset.',
 		expandable: true
 	}, {
 		date: 'Summer 2007',
