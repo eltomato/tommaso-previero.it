@@ -5,8 +5,7 @@ angular.module('tommaso-previero.controllers')
 	$scope.active = 0;
 
 	$scope.references = [{
-		quote: '[..]<br>'+
-			'Based on his work, I would rank him as one of the best we have ever had.<br>'+
+		quote: 'Based on his work, I would rank him as one of the best we have ever had.<br>'+
 			'[..]<br>'+
 			'Tommaso distinguished himself for the solid background and the ability to quickly learn new technologies. He is a problem-solver and I often assigned projects to Tommaso independently.<br>'+
 			'In my opinion, Tommaso is a hard-working self-starter who invariably understands exactly what a project is all about.<br>'+
