@@ -59,15 +59,21 @@ angular.module('tommaso-previero.controllers')
 			'Main languages used were Java, SQL, Javascript.',
 		expandable: true
 	}, {
-		date: '2008 - 2009',
+		date: '2009',
 		title: 'Software Developer at <a href="http://www.e-time.it/en/" target="_blank">e-time<i class="fa fa-external-link external-link"></i></a>',
 		subtitle: 'Term contract.<br>Verona, Italy',
-		description: 'Experience achieved during the last year of high school.<br>'+
+		description: 'Continuation of the experience achieved during the last year of High School.<br>'+
+			'Strengthening of all the technical skills, as well the critical approach to the software development.'
+	}, {
+		date: '2008',
+		title: 'Software Developer at <a href="http://www.e-time.it/en/" target="_blank">e-time<i class="fa fa-external-link external-link"></i></a>',
+		subtitle: 'Term contract.<br>Verona, Italy',
+		description: 'Experience achieved during the last year of High School.<br>'+
 			'Contribution to the development of a management system for a company that offers wireless connectivity in the north Italy in areas not yet completly covered by internet connection.<br>'+
 			'The languages used in the project were PHP, Javasctipt, SQL and everything related. Also used some useful PHP and Javascript framework like Zend and Dojo.<br>'+
 			'The system was able to take care of various type of notification to and from the users, commercial aspects and other things like management of the users or the system itself.',
 		expandable: true
-	}, {
+	},{
 		date: '2007-2008',
 		title: 'High School Diploma at <a href"https://www.marconiverona.gov.it/portal/" target="_blank">ITIS G. Marconi<i class="fa fa-external-link external-link"></i></a>',
 		subtitle: 'Head Technician in Computer Technology.',
