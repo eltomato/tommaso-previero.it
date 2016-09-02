@@ -90,7 +90,7 @@ angular.module('tommaso-previero.controllers')
 		date: 'Summer 2006',
 		title: 'Software Developer &amp; Tester at <a href="http://www.swht.eu/" target="_blank">SWht SoftWork<i class="fa fa-external-link external-link"></i></a>',
 		subtitle: 'Stage managed by high school <a href"https://www.marconiverona.gov.it/portal/" target="_blank">ITIS G. Marconi<i class="fa fa-external-link external-link"></i></a>.<br>Verona, Italy',
-		description: 'Internships consumed during high school summer vacations.<br>' + 
+		description: 'Internship consumed during high school summer vacations.<br>' + 
 			'The main duties were the search of abnormal behaviours in desktop applications written in Visual Basic or C# as well the development of some web pages containing simple forms that were sent by email as notifications.'
 	}, {
 		date: '1989',
