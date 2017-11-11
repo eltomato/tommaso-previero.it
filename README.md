@@ -1,1 +1,1 @@
-# Tommaso Previero Resume|CV|VCard
+# Tommaso Previero Resume

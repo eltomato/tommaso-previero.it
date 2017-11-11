@@ -2,259 +2,141 @@
 <html lang="en" ng-app="tommaso-previero">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Tommaso Previero, Security Software Engineer, Full Stack Developer">
-	<meta name="keywords" content="Tommaso Previero, resume, CV, Vcard, portfolio">
-	<meta name="author" content="Tommaso Previero">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tommaso Previero, Software Engineer, Full Stack Developer">
+    <meta name="keywords" content="Tommaso Previero, resume, CV, Vcard, portfolio">
+    <meta name="author" content="Tommaso Previero">
 
-	<title>Tommaso Previero – Resume</title>
+    <title>Tommaso Previero – Resume</title>
 
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
-	<link href="css/animate.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" media="screen">
-	<link href="css/responsive.css" rel="stylesheet">
-	<link href="js/angular/directives/externals/ui.carousel/carousel.css" rel="stylesheet">
-	
-	<link href="js/angular/directives/externals/angular-typewrite.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
 
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-		<script src="js/respond.min.js"></script>
-	<![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.png">
 
-	<link rel="shortcut icon" href="images/ico/favicon.png">
-	
 </head>
 
-<body ng-controller="SiteController">
-	
-	<!-- Preloader -->
-	<div id="tt-preloader">
-		<div id="pre-status">
-			<div class="preload-placeholder"></div>
-		</div>
-	</div>
+<body>
 
-	<!-- Home Section -->
-	<div ng-include="'partials/home.html'" include-replace></div>
+<div class="container">
 
-	<!-- Navigation -->
-	<div ng-include="'partials/navigation.html'" include-replace></div>
+    <div class="v-bar"></div>
 
-	<!-- About Section -->
-	<div ng-include="'partials/about.html'" include-replace></div>
+    <div class="header col-md-12 col-sm-12">
+        <div class="col-md-9 col-sm-7">
+            <h2 class="color-1">Tommaso Previero</span></h2>
+            <span class="job">Software Engineer, Full Stack Developer</span>
+        </div>
+        <div class="col-md-3 col-sm-5">
+            <img src="images/myphoto.jpg">
+        </div>
+    </div>
 
-	<!-- Video Section -->
-	<div ng-include="'partials/bored.html'" include-replace></div>
+    <div class="col-md-12 col-sm-12">
+        <div class="col-md-6">
+            <div class="col-md-12 row">
+                <h3 class="small-title color-1">Contact details</h3>
+                <div>(+39) 347 111 4206</div>
+                <div>
+                    <a href="mailto:t.previero@gmail.com">t.previero<i class="fa fa-at"></i>gmail.com</a>
+                </div>
+                <div><a href="http://tommaso-previero.com">tommaso-previero.com</a></div>
+            </div>
+            <div class="col-md-12 row">
+                <h3 class="small-title color-1">Profile</h3>
+                <div>
+                    Software Engineer with 10 years of experience in Software Development.
+                    Strong experience in banking and insurance environments. <br>
+                    Beware: I'll learn everything you'll throw at me.
+                </div>
+            </div>
+            <div class="col-md-12 row">
+                <h3 class="small-title color-1">Goal</h3>
+                <div>
+                    Expand my ability to work and my knowledge of complex systems.
+                    Learn.
+                    Grow. <br>
+                    Be a better human being.
+                </div>
+            </div>
+            <div class="col-md-12 row">
+                <h3 class="small-title color-1">Key Aspects</h3>
+                <div>
+                    Test, Continuous Integration, Software Security, Clean Code, Agile.
+                </div>
+            </div>
+            <div class="col-md-12 row">
+                <h3 class="small-title color-1">Also Known As</h3>
+                <div>
+                    Wool-knitter, Speed-cuber, Book-sniffer, e-Sk8er.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="col-md-12 row">
+                <h3 class="small-title color-1">Education</h3>
 
-	<!-- Resume Section -->
-	<div ng-include="'partials/resume.html'" include-replace></div>
+                <h4 class="small-small-title color-1">Australia (2016)</h4>
+                <div>Working Holiday Visa</div>
 
-	<!-- Skills Section -->
-	<div ng-include="'partials/skills.html'" include-replace></div>
+                <h4 class="small-small-title color-1">University of Verona (2015)</h4>
+                <div>Master Degree in Software Engineering and Security</div>
 
-	<!-- They Say Section -->
-	<div ng-include="'partials/references.html'" include-replace></div>
-	
-	<!-- Works Section -->
-	<!--<div ng-include="'partials/works.html'" include-replace></div>-->
+                <h4 class="small-small-title color-1">University of Verona (2012)</h4>
+                <div>Bachelor Degree in Computer Science</div>
 
-	<!-- Facts Section -->
-	<div ng-include="'partials/facts.html'" include-replace></div>
+                <h4 class="small-small-title color-1">ITIS G. Marconi, Verona (2008)</h4>
+                <div>Head Technician in Computer Technology</div>
+            </div>
+            <div class="col-md-12 row">
+                <h3 class="small-title color-1">Personal Experience</h3>
 
-	<!-- Blog Section -->
-	<div ng-include="'partials/services.html'" include-replace></div>
+                <div>
+                    <h4 class="small-small-title color-1">Software Engineer</h4>
+                    <div class="work-for"><i class="fa fa-at"></i>lastminute.com Group (2017 &mdash; today)</div>
+                </div>
 
-	<!-- Hire Section -->
-	<section class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
-		<div class="hire-section-bg">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h2>I'm available for freelance project</h2>
-						<a click-scroll analytics-on="click" analytics-event="hire" analytics-category="getInTouch" href="#contact" class="btn btn-default">Hire me</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                <div>
+                    <h4 class="small-small-title color-1">Software Developer/Engineer</h4>
+                    <div class="work-for"><i class="fa fa-at"></i>E-Time S.r.l. (2008 &mdash; 2016)</div>
+                    <div>
+                        Assisted in all the tasks of the SDLC and ideation process in banking and insurance
+                        environments. <br>
+                        Java, Javascript, C#, PHP, SQL.
+                    </div>
+                </div>
 
-	<!-- Contact Section -->
-	<section id="contact" ng-controller="ContactController" class="contact-section section-padding">
-		<div class="container">
-			<h2 class="section-title wow fadeInUp">Get in touch</h2>
-	
-			<div class="row">
-				<div class="col-md-6">
-					<div ng-if="!contactSent" class="contact-form">
-						<strong>Hi there!</strong>
-						<form name="contactForm" id="contactForm">
-	
-							<div class="form-group">
-								<label for="name">What's your name?</label>
-								<input type="text" ng-model="infos.name" name="name" placeholder="Call me Long John Silver, yarrr!" class="form-control" id="name" required="">
-								<span style="display:none;">Woops, forgot to fill?</span>
-							</div>
-	
-							<div class="form-group">
-								<label for="email">Your email would save me a lot of troubles</label>
-								<input type="email" ng-model="infos.email" name="email" placeholder="your@email.here" class="form-control email" id="email" required="">
-								<span style="display:none;">Woops, forgot to fill?</span> <span class="not-valid" style="display:none;">That's not a valid email!</span>
-							</div>
-	
-							<div class="form-group">
-								<label for="subject">Why are you writing to me?</label>
-								<input type="text" ng-model="infos.subject" name="subject" placeholder="Without a title a book is just a bunch of words" class="form-control" id="subject" required="">
-								<span style="display:none;">Woops, forgot to fill?</span>
-							</div>
-	
-							<div class="form-group">
-								<label for="message">And now...some details!</label>
-								<textarea ng-model="infos.message" name="message" placeholder="Let me fall in love with you!" class="form-control" id="message" rows="5" required=""></textarea>
-							</div>
-	
-							<button ng-click="sendContactInfos(contactForm)" analytics-on="click" analytics-event="send" analytics-category="getInTouch" type="button" name="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Send Message</button>
-						</form>
-					</div>
-					<div ng-if="contactSent">
-						<h3>Thank you for writing.</h3>
-						<h2>I'll answer you as soon as I can!</h2>
-						
-						<button ng-click="writeAgain()" type="button" name="submit" class="btn btn-primary">Write another message</button>
-					</div>
-				</div>
-	
-				<div class="col-md-6">
-					<div class="row center-xs">
-						<div class="col-sm-6">
-							<i class="fa fa-at"></i>
-							<address>
-								<strong>Email</strong>
-								<a href="mailto:t.previero@gmail.com" analytics-on="click" analytics-event="mailto" analytics-category="contact">t.previero<i class="fa fa-at"></i>gmail.com</a>
-							</address>
-						</div>
-	
-						<div class="col-sm-6">
-							<i class="fa fa-mobile"></i>
-							<div class="contact-number">
-								<strong>Phone Number</strong> IT: (0039) 347 111 42 06
-								<br> AU: 0405 959 130
-							</div>
-						</div>
-					</div>
-	
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="location-map"
-								map-lazy-load="https://maps.google.com/maps/api/js">
-								<div id="map"
-									ng-map
-									class="map-canvas"
-									center="{{getMapCenter()}}"
-									zoom="8"
-									styles="{{styles}}">
-									<marker
-										position="{{marker}}"></marker>
-								</div>
-								<!--<div id="mapCanvas" class="map-canvas"></div>-->
-							</div>
-						</div>
-					</div>
-	
-				</div>
-			</div>
-		</div>
-	</section>
+                <div>
+                    <h4 class="small-small-title color-1">Mobile Developer</h4>
+                    <div class="work-for"><i class="fa fa-at"></i>Vulcania System S.r.l. (2007)</div>
+                    <div>
+                        Development of a Mobile Application upon given specifications. <br>
+                        J2ME, PHP.
+                    </div>
+                </div>
 
-	<!-- Footer Section -->
-	<footer class="footer-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="copyright text-center">
-						<p>&copy; Tommaso Previero 2016.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
+                <div>
+                    <h4 class="small-small-title color-1">Software Developer and Tester</h4>
+                    <div class="work-for"><i class="fa fa-at"></i>SWht SoftWork (2006)</div>
+                    <div>
+                        Black-box testing of various desktop applications. <br>
+                        Development of web pages. <br>
+                        C#, Visual Basic.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<!-- Scroll-up -->
-	<div class="scroll-up">
-		<a click-scroll href="#home" analytics-on="click" analytics-event="up" analytics-category="navigation"><i class="fa fa-angle-up"></i></a>
-	</div>
+</div>
+<div class="footer">
+    &copy; Tommaso Previero 2017.
+</div>
 
-	<!-- Javascript files -->
-	<script src="js/jquery.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="js/jquery.stellar.min.js"></script>
-	<script src="js/jquery.sticky.js"></script>
-	<script src="js/smoothscroll.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script src="js/jquery.countTo.js"></script>
-	<script src="js/jquery.inview.min.js"></script>
-	<script src="js/jquery.easypiechart.js"></script>
-	<script src="js/jquery.shuffle.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/froogaloop2.min.js"></script>
-	<!--<script src="js/jquery.fitvids.js"></script>-->
-	<script src="js/scripts.js"></script>
-	
-	<script src="js/angular.min.js"></script>
-	<script src="js/angular-sanitize.min.js"></script>
-	<script src="js/angular-animate.min.js"></script>
-	<script src="js/angular/tommaso-previero.js"></script>
-	
-	<script src="js/angular/constants.js"></script>
-	
-	<script src="js/angular/services/MapService.js"></script>
-	<script src="js/angular/services/GetInTouchService.js"></script>
-	
-	<script src="js/angular/controllers/SiteController.js"></script>
-	<script src="js/angular/controllers/ResumeController.js"></script>
-	<script src="js/angular/controllers/ReferencesController.js"></script>
-	<script src="js/angular/controllers/ContactController.js"></script>
-	
-	<script src="js/angular/directives/IncludeReplace.js"></script>
-	<script src="js/angular/directives/FullHeight.js"></script>
-	<script src="js/angular/directives/Sticky.js"></script>
-	<script src="js/angular/directives/ClickScroll.js"></script>
-	<script src="js/angular/directives/PopupVideo.js"></script>
-	<script src="js/angular/directives/InviewCountWrap.js"></script>
-	<script src="js/angular/directives/InviewSkillProgress.js"></script>
-	<script src="js/angular/directives/InviewMoreSkill.js"></script>
-	<script src="js/angular/directives/Shuffle.js"></script>
-	<script src="js/angular/directives/PopupImage.js"></script>
-	<script src="js/angular/directives/TimelineEvent.js"></script>
-	<script src="js/angular/directives/TimelineExpand.js"></script>
-	
-	<script src="js/angular/directives/externals/angular-typewrite.js"></script>
-	<script src="js/angular/directives/externals/ui.carousel/carousel.js"></script>
-	<script src="js/angular/directives/externals/ui.carousel/carousel.html.js"></script>
-	<script src="js/angular/directives/externals/ui.carousel/slide.html.js"></script>
-	<script src="js/angular/directives/externals/ng-device-detector.min.js"></script>
-	<script src="js/angular/directives/externals/re-tree.min.js"></script>
-	<script src="js/angular/directives/externals/ng-map.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&key=AIzaSyCPdQuQgyrByqF7ngikm7Hakxs66HL56_s"></script>
-	
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	
-		ga('create', 'UA-81470224-1', 'auto');
-	</script>
-	<script src="js/angulartics.min.js"></script>
-	<script src="js/angulartics-ga.min.js"></script>
-	
-	
-	<!--<script src="js/mustache.min.js"></script>-->
+
 </body>
 
 </html>
